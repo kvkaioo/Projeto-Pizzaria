@@ -1,0 +1,170 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: red;
+    z-index: 1;
+}
+
+body{
+    background-color: #FFA07A;
+}
+
+#h1-header{
+    color: white;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    font-size: 40px;
+}
+
+.h3-header{
+    color: white;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    font-size: 20px;
+}
+
+.link-cabeçalho{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: arial;
+}
+
+#navegação{
+    text-align: right;
+    padding-right: 5px;
+}
+
+.section-1{
+    color: white;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 160px;
+    border-radius: 12px;
+}
+
+.h2-section-1{
+    font-family: arial;
+    font-size: 30px;
+    padding-top: 27px;
+}
+
+.p1{
+    padding-top: 13px;
+    font-size: 22px;
+    font-family: arial;
+}
+
+#section-grid{
+    padding: 10px;
+    height: 10%;
+    padding-bottom: 20px;
+}
+
+.section-2{
+    background-color: red;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.grid{
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px ;
+    
+}
+
+.sub-grid{
+    margin: 0 auto;
+    padding: 20%;
+    background-color: white;
+
+}
+
+.img-pizza{
+    max-width: 100%;
+}
+
+.h2-cardapio{
+    font-family: arial;
+    font-size: 28px;
+    color: white;
+}
+
+.h2-sub-grid{
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 5px;
+}
+
+.p-preços{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.botao-acao{
+    width: 70%;
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding-top: 5px;
+}
+
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: arial;
+}
+
+.link-cabeçalho:hover{
+    color: yellow;
+    transition: all ease-in-out 3ms;
+}
+
+#rodape{
+    background-color: red;
+}
+
+#h2-rodape{
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: arial;
+}
+
+.p1-footer{
+    color: white;
+    font-family: arial;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
